@@ -1,6 +1,6 @@
 <?php
 try {
-    $conn = new PDO("sqlsrv:server = tcp:univers.database.windows.net,1433; Database = UniversityDB", "Hanu", "Kilak@7248321326");
+    $conn = new PDO("sqlsrv:server = tcp:kilak.database.windows.net,1433; Database = UniversityDB", "Hanu", "Kilak@7248321326");
     $conn->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
 	print("Connection is there \n");
 }
