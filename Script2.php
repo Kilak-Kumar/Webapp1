@@ -31,7 +31,7 @@ foreach ($rows as  $row)
    if ($row!=NUll)
    {
 	$FName = $row['FirstName'];
-	$LName = $row['LastName']
+	$LName = $row['LastName'];
 	$GPA  = $row['AvgGPA'];
 	$M= $row['Major'];
    }
