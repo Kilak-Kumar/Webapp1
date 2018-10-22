@@ -32,7 +32,7 @@ foreach ($rows as  $row)
    {
 	$FName = $row['FirstName'];
 	$LName = $row['LastName']
-	$GPA  = $row['GPA'];
+	$GPA  = $row['AvgGPA'];
 	$M= $row['Major'];
    }
    else
